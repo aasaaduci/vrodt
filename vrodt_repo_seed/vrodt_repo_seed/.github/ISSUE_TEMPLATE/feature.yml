@@ -1,0 +1,12 @@
+name: Feature request
+description: Propose an enhancement
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want?
+      description: Describe the feature
+    validations:
+      required: true

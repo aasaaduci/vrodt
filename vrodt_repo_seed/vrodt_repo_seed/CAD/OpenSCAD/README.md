@@ -1,0 +1,1 @@
+See the `DIY_ODT_v1_Pack.zip` for full OpenSCAD models. Copy `CAD/OpenSCAD/*.scad` here or generate STLs before commit.

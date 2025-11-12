@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+# PlatformIO
+.pio/
+.vscode/.browse.c_cpp.db*
+# CAD
+*.stl
+*.3mf
+# OS
+.DS_Store
+Thumbs.db

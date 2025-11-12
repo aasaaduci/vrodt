@@ -1,0 +1,25 @@
+name: firmware-ci
+
+on:
+  push:
+    paths:
+      - 'Firmware/**'
+      - '.github/workflows/**'
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install PlatformIO
+        run: pip install platformio
+      - name: Build Shoe IMU
+        working-directory: Firmware/ESP32_Shoe_IMU
+        run: pio run
+      - name: Build HID Bridge
+        working-directory: Firmware/ESP32_HID_Bridge
+        run: pio run

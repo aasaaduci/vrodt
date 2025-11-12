@@ -1,0 +1,6 @@
+{
+  "name": "Generic PETG",
+  "nozzle_temperature": 240,
+  "bed_temperature": 80,
+  "fan_speed": 30
+}

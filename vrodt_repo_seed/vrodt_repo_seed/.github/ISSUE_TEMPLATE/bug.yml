@@ -1,0 +1,12 @@
+name: Bug report
+description: File a bug or regression
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the bug
+    validations:
+      required: true
